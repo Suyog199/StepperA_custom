@@ -148,7 +148,8 @@ mixin StepStyle on IStepPage {
         StepperModel().customSteps![index].image ??
             Icon(
               StepperModel().customSteps![index].stepsIcon!,
-              color: Colors.white,
+              color:
+                  StepperModel().customSteps![index].iconColor ?? Colors.white,
               size: 18.0,
             ));
   }
