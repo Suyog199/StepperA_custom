@@ -17,7 +17,7 @@ class PathDrawing {
     required Size size,
     required BorderShape pathType,
     double strokeWidth = 2.0,
-    Radius radius = const Radius.circular(4.0),
+    Radius radius = const Radius.circular(0.0),
     int startingPercentage = 0,
   })  : _size = size,
         _pathType = pathType,
